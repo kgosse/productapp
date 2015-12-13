@@ -9,4 +9,27 @@
     font-weight: bold;
     margin: 3vh auto;
   }
+
+  &__products {
+    line-height: 100px;
+    height: 100px;
+    text-align: center;
+    background: #ffffff;
+    color: #ffffff;
+    width: 90%;
+    margin: auto;
+
+    .slick-prev:before, .slick-next:before{
+      color: #00558B;
+    }
+
+    &__product {
+
+      h3 {
+        background: #00558B;
+        margin: 10px;
+        position: relative;
+      }
+    }
+  }
 }
